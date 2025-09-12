@@ -5,9 +5,4 @@ It contains a wrapper control for [HTML Canvas Gauges](https://github.com/Mikhus
 
 Installation
 ============
-Install the package with `composer require scavix/wdf-gauge`
-
-Uses
-====
-
-* [HTML Canvas Gauges (2.1.5)](https://github.com/Mikhus/canvas-gauges)
+Install the package with `composer require {{name}}`.

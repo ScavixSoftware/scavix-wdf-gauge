@@ -11,5 +11,22 @@
 	},
 	"require": {
         "scavix/wdf-core": "^1.0.0"
-	}
+	},
+    "extra":
+    {
+        "externals":
+        [
+            {
+                "name": "HTML Canvas Gauges",
+                "version": "2.1.5",
+                "homepage": "https://canvas-gauges.com/",
+                "description": "This is tiny implementation of highly configurable gauge using pure JavaScript and HTML5 canvas.",
+                "license": "MIT",
+                "files":
+                {
+                    "res/gauge.min.js": "https://cdn.jsdelivr.net/gh/Mikhus/canvas-gauges@gh-pages/download/2.1.5/all/gauge.min.js"
+                }
+            }
+        ]
+    }
 }
