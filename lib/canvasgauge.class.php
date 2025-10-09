@@ -26,12 +26,12 @@
 namespace ScavixWDF\Controls;
 
 use ScavixWDF\Base\Control;
+use ScavixWDF\Reflection\Attributes\Resource;
 
 /**
  * Wrapper for canvas-gauges.com
- * 
- * @attribute[Resource('gauge.min.js')]
  */
+#[Resource('gauge.min.js')]
 class CanvasGauge extends Control
 {
 	function __construct()
@@ -55,7 +55,7 @@ class CanvasGauge extends Control
             ->opt('font-value-size',48)
             ;
 	}
-    
+
     /**
      * @shortcut <Control::data>
      */
