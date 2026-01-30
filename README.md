@@ -5,4 +5,14 @@ It contains a wrapper control for [HTML Canvas Gauges](https://github.com/Mikhus
 
 Installation
 ============
-Install the package with `composer require {{name}}`.
+Install the package with `composer require scavix/wdf-gauge`.
+
+Dependencies
+------------
+* [scavix/wdf-core (^1.1.0)](https://packagist.org/packages/scavix/wdf-core#v1.1.0)
+
+Used software
+-------------
+| Name | Version | Web | Description |
+|---|---|---|---|
+| HTML Canvas Gauges | 2.1.5 | https://canvas-gauges.com/ | This is tiny implementation of highly configurable gauge using pure JavaScript and HTML5 canvas. |
