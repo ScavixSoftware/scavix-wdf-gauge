@@ -32,6 +32,5 @@ Wdf::RegisterPackage('gauge', 'gauge_init');
  */
 function gauge_init()
 {
-    classpath_add(__DIR__ . '/lib');
     add_wdfresource_dir(__DIR__ . '/res');
 }
